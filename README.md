@@ -5,6 +5,16 @@ A simple but elegant machine learning project that classifies iris flowers using
 In this project, I built a classifier to predict the species of an iris flower based on its petal and sepal dimensions. I used a tuned Support Vector Machine (SVM) wrapped in a pipeline and visualized the predictions using PCA-reduced components and Gaussian Mixture Models (GMM). The final result is a lightweight interactive web app powered by Streamlit.
 
 # 📁 Files in this repo
+| File Name       | Description |
+|----------------|-------------|
+| **Iris.csv** | Dataset containing iris species data |
+| **iris_classifier.ipynb** | Jupyter notebook used for data exploration, model training, and evaluation |
+| **requirements.yaml** | Conda environment file for reproducibility |
+| **app.py** | The main Streamlit application |
+| **util.py** | Holds reusable functions for generating model performance visualizations |
+
+
+
 Iris.csv: The classic Iris dataset from UCI.
 
 iris_svm_pipeline.joblib: Pre-trained SVM model with scaling and tuning.
@@ -26,7 +36,7 @@ I used GridSearchCV to tune the C, gamma, and kernel parameters of the SVM.
 # 🌐 Web App
 You can interact with the model using the Streamlit app. Users can input measurements via sliders and instantly see the predicted species. A dynamic plot visualizes where your flower lands in PCA space with GMM density contours and an annotated prediction arrow.
 
-#📌 Key Features
+# 📌 Key Features
 End-to-end pipeline: preprocessing + SVM
 
 PCA for dimensionality reduction
