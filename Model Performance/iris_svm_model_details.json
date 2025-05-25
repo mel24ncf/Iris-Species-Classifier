@@ -1,0 +1,18 @@
+{
+    "model_type": "SVC",
+    "best_params": {
+        "classifier__C": 1,
+        "classifier__gamma": "scale",
+        "classifier__kernel": "linear"
+    },
+    "best_cv_score": 0.9742753623188406,
+    "test_accuracy": 0.9666666666666667,
+    "preprocessing": [
+        "preprocessor"
+    ],
+    "target_classes": [
+        "Iris-setosa",
+        "Iris-versicolor",
+        "Iris-virginica"
+    ]
+}
