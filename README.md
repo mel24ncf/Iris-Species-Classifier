@@ -16,6 +16,7 @@ In this project, I built a classifier to predict the species of an iris flower b
 | **iris_svm_pipeline.joblib** | Pre-trained SVM model with scaling and tuning |
 | **label_encoder.joblib** | Label encoder used to transform species labels |
 | **app.py** | The main Streamlit application |
+| environment.yaml | Environment file for reproducibility |
 
 ## 🧠 Model Performance
 The final model achieved ~97% accuracy on both training and validation sets, indicating good generalization and no signs of overfitting.
