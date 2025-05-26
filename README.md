@@ -12,6 +12,7 @@ In this project, I built a classifier to predict the species of an iris flower b
 | **requirements.yaml** | Conda environment file for reproducibility |
 | **app.py** | The main Streamlit application |
 | **util.py** | Holds reusable functions for generating model performance visualizations |
+| **iris_svm_model_details.json** | json file containing model hyperparameter details for the best model |
 
 ## 🧠 Model Performance
 The final model achieved ~97% accuracy on both training and validation sets, indicating good generalization and no signs of overfitting.
