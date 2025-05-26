@@ -41,6 +41,10 @@ Live visualization with prediction annotation in Streamlit
 Caches and modular functions for performance
 
 
+## 💻 Live Demo
+
+👉 [Check out the Iris Species Classifier App](https://iris-species-classifier-ma.streamlit.app/)
+
 
 ## 🚀 Getting Started
 
