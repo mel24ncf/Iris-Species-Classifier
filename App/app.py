@@ -14,11 +14,11 @@ st.title("🌸 :blue[Iris Flower Species Classifier]")
 # Load cached model and encoder
 @st.cache_resource
 def load_model():
-    return joblib.load("iris_svm_pipeline.joblib")
+    return joblib.load("Model/iris_svm_pipeline.joblib")
 
 @st.cache_resource
 def load_encoder():
-    return joblib.load("label_encoder.joblib")
+    return joblib.load("Model/label_encoder.joblib")
 
 model = load_model()
 label_encoder = load_encoder()
