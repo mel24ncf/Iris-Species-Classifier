@@ -1,0 +1,13 @@
+name: iris-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - joblib
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - ipykernel
