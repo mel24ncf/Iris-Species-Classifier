@@ -10,4 +10,5 @@ dependencies:
   - pandas
   - scikit-learn
   - seaborn
+  - streamlit
   - ipykernel
