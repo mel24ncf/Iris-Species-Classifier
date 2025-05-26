@@ -18,12 +18,18 @@ In this project, I built a classifier to predict the species of an iris flower b
 | **app.py** | The main Streamlit application |
 | environment.yaml | Environment file for reproducibility |
 
+
+
 ## 🧠 Model Performance
 The final model achieved ~97% accuracy on both training and validation sets, indicating good generalization and no signs of overfitting.
 I used GridSearchCV to tune the C, gamma, and kernel parameters of the SVM.
 
+
+
 ## 🌐 Web App
 You can interact with the model using the Streamlit app. Users can input measurements via sliders and instantly see the predicted species. A dynamic plot visualizes where your flower lands in PCA space with GMM density contours and an annotated prediction arrow.
+
+
 
 ## 📌 Key Features
 End-to-end pipeline: preprocessing + SVM
@@ -33,6 +39,8 @@ PCA and GMM for visualizing density in a dimensionality reduced feature space
 Live visualization with prediction annotation in Streamlit
 
 Caches and modular functions for performance
+
+
 
 ## 🚀 Getting Started
 
